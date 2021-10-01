@@ -6,14 +6,14 @@
 # App Architecture
  - initialized using react-native-cli.
  - Used basic UI to show data
- - Used React-query to query api from (https://api.covid19api.com/)
- - Used zustand for state managgement
- - Localization supoorted for english and arabic.
+ - Used **React-query** to query api from (https://api.covid19api.com/)
+ - Used **zustand** for state managgement
+ - Added **Localization** to support English and Arabic.
  
  
 
 #### React Native
- - Used typescript(.tsx) to create class and function component
+ - Used **typescript**(.tsx) to create class and functional component
 
 #### API
  - Used https://api.covid19api.com/summary to get data for global and for each country basic covid data.(Few informations are set to zero from API)
@@ -22,7 +22,7 @@
 # Prerequisites
 
 - Node 12.22.6
-- iOS 12.1+  -
+- iOS 12.1+
 - Xcode 13
 - Swift 5 
 - cocoapod 1.10.1
@@ -68,6 +68,10 @@ sh ./scripts/android_dev_apk.sh <store_password> <alias_password> <appcenter_api
 ```sh
 jest
  ```
+  # E2E testing using Jest
+ - Used detox 
+ - Added config to write E2E test.
+ 
 
 # Contact
  - Mohammad Safad - msafad90@gmail.com

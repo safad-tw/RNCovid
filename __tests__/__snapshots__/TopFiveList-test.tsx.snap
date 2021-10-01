@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5FCFF",
+      "borderRadius": 5,
+      "elevation": 5,
+      "height": 200,
+      "justifyContent": "center",
+      "margin": 5,
+      "shadowColor": "gray",
+      "shadowOffset": Object {
+        "height": 1,
+        "width": 0,
+      },
+      "shadowOpacity": 0.8,
+      "shadowRadius": 2,
+      "width": 730,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "Country": "Afghanistan",
+          "CountryCode": "AF",
+          "Date": "2021-09-29T12:04:59.613Z",
+          "ID": "d81abd15-3c81-4c98-82e7-6042959daa6d",
+          "NewConfirmed": 0,
+          "NewDeaths": 0,
+          "NewRecovered": 0,
+          "Premium": Object {},
+          "Slug": "afghanistan",
+          "TotalConfirmed": 155093,
+          "TotalDeaths": 7201,
+          "TotalRecovered": 0,
+        },
+        Object {
+          "Country": "Albania",
+          "CountryCode": "AL",
+          "Date": "2021-09-29T12:04:59.613Z",
+          "ID": "39714019-ce94-461b-b81a-1236f961c02a",
+          "NewConfirmed": 0,
+          "NewDeaths": 0,
+          "NewRecovered": 0,
+          "Premium": Object {},
+          "Slug": "albania",
+          "TotalConfirmed": 168782,
+          "TotalDeaths": 2668,
+          "TotalRecovered": 0,
+        },
+        Object {
+          "Country": "Algeria",
+          "CountryCode": "DZ",
+          "Date": "2021-09-29T12:04:59.613Z",
+          "ID": "729b2b5d-848c-4597-98b2-d35a90045c80",
+          "NewConfirmed": 0,
+          "NewDeaths": 0,
+          "NewRecovered": 0,
+          "Premium": Object {},
+          "Slug": "algeria",
+          "TotalConfirmed": 203045,
+          "TotalDeaths": 5797,
+          "TotalRecovered": 0,
+        },
+        Object {
+          "Country": "Andorra",
+          "CountryCode": "AD",
+          "Date": "2021-09-29T12:04:59.613Z",
+          "ID": "da4c9b7a-5f18-4105-a349-0af456ebc00b",
+          "NewConfirmed": 0,
+          "NewDeaths": 0,
+          "NewRecovered": 0,
+          "Premium": Object {},
+          "Slug": "andorra",
+          "TotalConfirmed": 15192,
+          "TotalDeaths": 130,
+          "TotalRecovered": 0,
+        },
+        Object {
+          "Country": "Angola",
+          "CountryCode": "AO",
+          "Date": "2021-09-29T12:04:59.613Z",
+          "ID": "e0737d69-f4ee-417d-b781-83ceb157efd9",
+          "NewConfirmed": 0,
+          "NewDeaths": 0,
+          "NewRecovered": 0,
+          "Premium": Object {},
+          "Slug": "angola",
+          "TotalConfirmed": 56040,
+          "TotalDeaths": 1526,
+          "TotalRecovered": 0,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Avenir-medium",
+              "fontSize": 17,
+              "margin": 5,
+              "textAlign": "left",
+            }
+          }
+        >
+          1
+          . 
+          Afghanistan
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Avenir-medium",
+              "fontSize": 17,
+              "margin": 5,
+              "textAlign": "left",
+            }
+          }
+        >
+          2
+          . 
+          Albania
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Avenir-medium",
+              "fontSize": 17,
+              "margin": 5,
+              "textAlign": "left",
+            }
+          }
+        >
+          3
+          . 
+          Algeria
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Avenir-medium",
+              "fontSize": 17,
+              "margin": 5,
+              "textAlign": "left",
+            }
+          }
+        >
+          4
+          . 
+          Andorra
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text
+          style={
+            Object {
+              "fontFamily": "Avenir-medium",
+              "fontSize": 17,
+              "margin": 5,
+              "textAlign": "left",
+            }
+          }
+        >
+          5
+          . 
+          Angola
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityRole="button"
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "blue",
+            },
+          ]
+        }
+      >
+        View All
+      </Text>
+    </View>
+  </View>
+</View>
+`;

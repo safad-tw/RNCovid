@@ -1,0 +1,746 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "paddingTop": 40,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Avenir-black",
+        "fontSize": 18,
+        "marginTop": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+     Country: 
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="ios_touchable_wrapper"
+    >
+      <View
+        pointerEvents="box-only"
+      >
+        <TextInput
+          editable={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderColor": "black",
+                "borderRadius": 20,
+                "borderWidth": 1,
+                "color": "gray",
+                "fontFamily": "Avenir-medium",
+                "fontSize": 18,
+                "height": 40,
+                "margin": 5,
+                "paddingHorizontal": 10,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "gray",
+                "fontFamily": "Avenir-medium",
+                "fontSize": 18,
+                "textAlign": "center",
+              },
+            ]
+          }
+          testID="text_input"
+          value="Select an item..."
+        />
+      </View>
+    </View>
+    <Modal
+      hardwareAccelerated={false}
+      onOrientationChange={[Function]}
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      testID="ios_modal"
+      transparent={true}
+      visible={false}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+        testID="ios_modal_top"
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f8f8f8",
+              "borderTopColor": "#dedede",
+              "borderTopWidth": 1,
+              "flexDirection": "row",
+              "height": 45,
+              "justifyContent": "space-between",
+              "paddingHorizontal": 10,
+              "zIndex": 2,
+            },
+            undefined,
+          ]
+        }
+        testID="input_accessory_view"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#a1a1a1",
+                    "borderRightWidth": 1.5,
+                    "borderTopWidth": 1.5,
+                    "height": 15,
+                    "width": 15,
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 11,
+                    "transform": Array [
+                      Object {
+                        "translateY": 4,
+                      },
+                      Object {
+                        "rotate": "-45deg",
+                      },
+                    ],
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#a1a1a1",
+                    "borderRightWidth": 1.5,
+                    "borderTopWidth": 1.5,
+                    "height": 15,
+                    "width": 15,
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 22,
+                    "transform": Array [
+                      Object {
+                        "translateY": -5,
+                      },
+                      Object {
+                        "rotate": "135deg",
+                      },
+                    ],
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 4,
+              "left": 4,
+              "right": 4,
+              "top": 4,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="done_button"
+        >
+          <View
+            testID="needed_for_touchable"
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#007aff",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                    "paddingRight": 11,
+                    "paddingTop": 1,
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+              testID="done_text"
+            >
+              Done
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#d0d4da",
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 215,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View>
+          <RNCPicker
+            items={
+              Array [
+                Object {
+                  "label": "Select an item...",
+                  "testID": undefined,
+                  "textColor": 4288585892,
+                  "value": null,
+                },
+              ]
+            }
+            onChange={[Function]}
+            selectedIndex={0}
+            style={
+              Array [
+                Object {
+                  "height": 216,
+                },
+                undefined,
+              ]
+            }
+            testID="ios_picker"
+          />
+        </View>
+      </View>
+    </Modal>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Avenir-black",
+        "fontSize": 18,
+        "marginTop": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+     Case type: 
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "alignSelf": "stretch",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      nativeID="animatedComponent"
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="ios_touchable_wrapper"
+    >
+      <View
+        pointerEvents="box-only"
+      >
+        <TextInput
+          editable={false}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "white",
+                "borderColor": "black",
+                "borderRadius": 20,
+                "borderWidth": 1,
+                "color": "gray",
+                "fontFamily": "Avenir-medium",
+                "fontSize": 18,
+                "height": 40,
+                "margin": 5,
+                "paddingHorizontal": 10,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "gray",
+                "fontFamily": "Avenir-medium",
+                "fontSize": 18,
+                "textAlign": "center",
+              },
+            ]
+          }
+          testID="text_input"
+          value="Select an item..."
+        />
+      </View>
+    </View>
+    <Modal
+      hardwareAccelerated={false}
+      onOrientationChange={[Function]}
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      testID="ios_modal"
+      transparent={true}
+      visible={false}
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "flex": 1,
+            "opacity": 1,
+          }
+        }
+        testID="ios_modal_top"
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#f8f8f8",
+              "borderTopColor": "#dedede",
+              "borderTopWidth": 1,
+              "flexDirection": "row",
+              "height": 45,
+              "justifyContent": "space-between",
+              "paddingHorizontal": 10,
+              "zIndex": 2,
+            },
+            undefined,
+          ]
+        }
+        testID="input_accessory_view"
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#a1a1a1",
+                    "borderRightWidth": 1.5,
+                    "borderTopWidth": 1.5,
+                    "height": 15,
+                    "width": 15,
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 11,
+                    "transform": Array [
+                      Object {
+                        "translateY": 4,
+                      },
+                      Object {
+                        "rotate": "-45deg",
+                      },
+                    ],
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            />
+          </View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            nativeID="animatedComponent"
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#a1a1a1",
+                    "borderRightWidth": 1.5,
+                    "borderTopWidth": 1.5,
+                    "height": 15,
+                    "width": 15,
+                  },
+                  undefined,
+                  Object {
+                    "marginLeft": 22,
+                    "transform": Array [
+                      Object {
+                        "translateY": -5,
+                      },
+                      Object {
+                        "rotate": "135deg",
+                      },
+                    ],
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+            />
+          </View>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          hitSlop={
+            Object {
+              "bottom": 4,
+              "left": 4,
+              "right": 4,
+              "top": 4,
+            }
+          }
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="done_button"
+        >
+          <View
+            testID="needed_for_touchable"
+          >
+            <Text
+              allowFontScaling={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#007aff",
+                    "fontSize": 17,
+                    "fontWeight": "600",
+                    "paddingRight": 11,
+                    "paddingTop": 1,
+                  },
+                  undefined,
+                  Object {},
+                ]
+              }
+              testID="done_text"
+            >
+              Done
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#d0d4da",
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 215,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View>
+          <RNCPicker
+            items={
+              Array [
+                Object {
+                  "label": "Select an item...",
+                  "testID": undefined,
+                  "textColor": 4288585892,
+                  "value": null,
+                },
+                Object {
+                  "label": "Death",
+                  "testID": undefined,
+                  "textColor": undefined,
+                  "value": "death",
+                },
+                Object {
+                  "label": "Recovery",
+                  "testID": undefined,
+                  "textColor": undefined,
+                  "value": "recovery",
+                },
+                Object {
+                  "label": "Active",
+                  "testID": undefined,
+                  "textColor": undefined,
+                  "value": "active",
+                },
+              ]
+            }
+            onChange={[Function]}
+            selectedIndex={0}
+            style={
+              Array [
+                Object {
+                  "height": 216,
+                },
+                undefined,
+              ]
+            }
+            testID="ios_picker"
+          />
+        </View>
+      </View>
+    </Modal>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontFamily": "Avenir-black",
+        "fontSize": 18,
+        "marginTop": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+     Number of cases: 
+  </Text>
+  <TextInput
+    keyboardType="numeric"
+    onChangeText={[Function]}
+    placeholder="Enter number of cases"
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 20,
+        "borderWidth": 1,
+        "color": "gray",
+        "fontFamily": "Avenir-medium",
+        "fontSize": 18,
+        "height": 40,
+        "margin": 5,
+        "paddingHorizontal": 10,
+        "textAlign": "center",
+        "width": "95%",
+      }
+    }
+    value=""
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ccc",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "marginTop": 20,
+        "opacity": 1,
+        "padding": 10,
+        "width": "80%",
+      }
+    }
+  >
+    <Text>
+      Submit
+    </Text>
+  </View>
+</View>
+`;

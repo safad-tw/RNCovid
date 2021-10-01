@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "flexDirection": "row",
+    }
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 20,
+        "borderWidth": 2,
+        "margin": 5,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      recovered
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 20,
+        "borderWidth": 2,
+        "margin": 5,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      deaths
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    nativeID="animatedComponent"
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "borderColor": "black",
+        "borderRadius": 20,
+        "borderWidth": 2,
+        "margin": 5,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      active
+    </Text>
+  </View>
+</View>
+`;

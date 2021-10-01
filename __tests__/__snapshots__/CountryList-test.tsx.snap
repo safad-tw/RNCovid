@@ -1,0 +1,357 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Country list rendering Renders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f8f8f8",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 20,
+        "fontFamily": "Avenir-medium",
+        "fontSize": 16,
+        "margin": 10,
+        "padding": 10,
+        "width": "95%",
+      }
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      clearButtonMode="always"
+      onChangeText={[Function]}
+      placeholder="Search by country name"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "paddingHorizontal": 20,
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "margin": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "margin": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Recovered
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "margin": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Deaths
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "margin": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Active
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
+
+exports[`LoadingScreen rendering Renders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f8f8f8",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 20,
+        "fontFamily": "Avenir-medium",
+        "fontSize": 16,
+        "margin": 10,
+        "padding": 10,
+        "width": "95%",
+      }
+    }
+  >
+    <TextInput
+      autoCapitalize="none"
+      autoCorrect={false}
+      clearButtonMode="always"
+      onChangeText={[Function]}
+      placeholder="Search by country name"
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "paddingHorizontal": 20,
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "flexDirection": "row",
+        "margin": 5,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "margin": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Recovered
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "margin": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Deaths
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        nativeID="animatedComponent"
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "white",
+            "borderColor": "black",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "margin": 5,
+            "opacity": 1,
+            "padding": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Active
+        </Text>
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

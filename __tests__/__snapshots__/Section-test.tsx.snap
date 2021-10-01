@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders snapshot as expected 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 32,
+      "paddingHorizontal": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontFamily": "Avenir-black",
+          "fontSize": 18,
+          "textAlign": "center",
+        },
+        Object {
+          "color": "#000",
+        },
+      ]
+    }
+  >
+    Global
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+          "fontWeight": "400",
+          "marginTop": 8,
+        },
+        Object {
+          "color": "#444",
+        },
+      ]
+    }
+  />
+</View>
+`;

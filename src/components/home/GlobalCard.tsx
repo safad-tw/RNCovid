@@ -7,9 +7,11 @@ import {
 } from 'react-native-chart-kit'
 
 import LanguagesStrings from './../../localization/LanguagesStrings';
+import {GlobalData} from './../../models/GlobalData'
+
 
 interface GlobalCardProps {
-  data: any
+  data: GlobalData
 }
 
 

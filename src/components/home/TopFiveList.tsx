@@ -7,9 +7,10 @@ import {
 } from 'react-native';
 
 import LanguagesStrings from './../../localization/LanguagesStrings';
+import {Country} from './../../models/Country'
 
 interface TopFiveListProps {
-    data: any,
+    data: [Country],
     navigateTo: () => void;
 }
 

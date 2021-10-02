@@ -8,16 +8,12 @@ describe('Example', () => {
   });
 
   it('should have welcome screen', async () => {
-    await expect(element(by.id('welcome'))).toBeVisible();
+    await expect(element(by.id('Covid'))).toBeVisible();
   });
 
-  it('should show hello screen after tap', async () => {
-    await element(by.id('hello_button')).tap();
-    await expect(element(by.text('Hello!!!'))).toBeVisible();
+  it('should show view all screen after tap', async () => {
+    await element(by.id('View All')).tap();
+    await expect(element(by.text('CountryList'))).toBeVisible();
   });
 
-  it('should show world screen after tap', async () => {
-    await element(by.id('world_button')).tap();
-    await expect(element(by.text('World!!!'))).toBeVisible();
-  });
 });

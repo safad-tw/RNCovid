@@ -1,0 +1,74 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+
+lane :unit_tests do
+  run_tests(scheme: "RNMealsTests")
+end
+
+lane :Dev do |options|
+
+get_certificates(username:options[:email])          
+get_provisioning_profile(username: options[:email], app_identifier:"org.reactjs.native.ss.Covid", adhoc: true)   
+ 
+build_ios_app(
+  workspace: "Covid.xcworkspace",
+  configuration: "Release",
+  scheme: "RNMeals",
+  silent: true,
+  clean: true,
+  export_method:"ad-hoc",
+  output_name: "Covid.ipa")
+
+appcenter_upload(
+    api_token: options[:api_token],
+    owner_name: options[:owner_name],
+    app_name:  options[:app_name],
+    file: "Covid.ipa",
+notify_testers: true
+  )
+
+
+end
+
+lane :Prod_Appstore do |options|
+
+get_certificates(username:options[:email])          
+get_provisioning_profile(username: options[:email], app_identifier:"org.reactjs.native.ss.Covid", readonly: true)   
+
+ build_ios_app(
+  workspace: "Covid.xcworkspace",
+  configuration: "Release",
+  scheme: "RNMeals",
+  silent: true,
+  clean: true,
+  export_method:"app-store",
+  output_name: "Covid.ipa")
+
+upload_to_testflight(
+  username: options[:email],
+  app_identifier: "org.reactjs.native.ss.Covid",
+skip_waiting_for_build_processing: true)
+
+
+end
+end

@@ -7,20 +7,20 @@ import {
 } from 'react-native';
 
 import LanguagesStrings from './../../localization/LanguagesStrings';
-import {Country} from './../../models/Country'
+import { Country } from './../../models/Country'
 
 interface TopFiveListProps {
     data: [Country],
     navigateTo: () => void;
 }
 
-class TopFiveList extends React.Component<TopFiveListProps> {
+const TopFiveList = (props: TopFiveListProps) => {
 
-    constructor(props: TopFiveListProps) {
-        super(props);
+    const goToViewAllScreen = () => {
+        props.navigateTo()
     }
 
-    _renderItem(data: any) {
+    const renderItem = (data: any) => {
         return (
             <Text style={styles.cardListName}>
                 {data.index + 1}. {data.item.Country}
@@ -28,27 +28,23 @@ class TopFiveList extends React.Component<TopFiveListProps> {
         )
     }
 
-    goToViewAllScreen() {
-        this.props.navigateTo()
-    }
+    return (
+        <View style={styles.cardView}>
+            <FlatList
+                data={props.data}
+                renderItem={renderItem}
+                keyExtractor={(item) => item.CountryCode}
+            />
+            <Button
+                title={LanguagesStrings.viewAll}
+                color="blue"
+                onPress={() => goToViewAllScreen}
+            />
+        </View>
+    )
 
-    render() {
-        return (
-            <View style={styles.cardView}>
-                <FlatList
-                    data={this.props.data}
-                    renderItem={this._renderItem}
-                    keyExtractor={(item) => item.CountryCode}
-                />
-                <Button
-                    title={LanguagesStrings.viewAll}
-                    color="blue"
-                    onPress={() => this.goToViewAllScreen()}
-                />
-            </View>
-        )
-    }
 }
+
 
 const width = Dimensions.get('window').width - 20;
 

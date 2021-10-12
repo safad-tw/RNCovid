@@ -68,7 +68,7 @@ sh ./scripts/android_dev_apk.sh <store_password> <alias_password> <appcenter_api
 ```sh
 jest
  ```
-  # E2E testing using Jest
+  # E2E testing using DETOX
  - Used detox 
  - Added config to write E2E test.
  

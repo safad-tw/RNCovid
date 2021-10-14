@@ -38,7 +38,7 @@ const TopFiveList = (props: TopFiveListProps) => {
             <Button
                 title={LanguagesStrings.viewAll}
                 color="blue"
-                onPress={() => goToViewAllScreen}
+                onPress={() => goToViewAllScreen()}
             />
         </View>
     )

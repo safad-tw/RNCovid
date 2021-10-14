@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import TopFiveList from './TopFiveList';
 import GlobalCard from './GlobalCard';
 import Section from '../../common/Section';
 import LanguagesStrings from './../../localization/LanguagesStrings';
+import { useQuery } from 'react-query'
+import { URLs } from '../../common/URL'
 
 import {
   SafeAreaView,
@@ -22,26 +24,39 @@ import covidSummaryStore from '../../store/CovidSummaryStore'
 
 const Home = (props: any) => {
   const isDarkMode = useColorScheme() === 'dark';
-  const getCovidSummary = covidSummaryStore((state) => state.getCovidSummary);
+  const setCovidSummary = covidSummaryStore((state) => state.setCovidSummary);
   const covidCases = covidSummaryStore((state) => state.covidCases);
 
-  getCovidSummary();
+  const { isLoading, error, data } = useQuery('covidSummary', () =>
+    fetch(URLs.covidSummary).then(res =>
+      res.json()
+    ))
+
+
+  useEffect(() => {
+    if (isLoading == false && data) {
+      setCovidSummary(data)
+    }
+  }, [data])
+
   LanguagesStrings.setLanguage('en');
 
   const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-
   const navigateToList = () => {
     props.navigation.navigate('CountryList', { data: covidCases });
   }
 
   const top5Countries = () => {
+    if (covidCases != undefined && covidCases.length != 0) {
       const sortedCountries = covidCases.Countries.sort(function (a: any, b: any) {
         return parseFloat(b.TotalConfirmed) - parseFloat(a.TotalConfirmed);
       });
       return sortedCountries.slice(0, 5)
+    }
+
   }
 
   const reportNewCase = () => {

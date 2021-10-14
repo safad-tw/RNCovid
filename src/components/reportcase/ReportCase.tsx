@@ -9,7 +9,7 @@ import {
 import RNPickerSelect from 'react-native-picker-select';
 import covidSummaryStore from '../../store/CovidSummaryStore'
 import LanguagesStrings from './../../localization/LanguagesStrings';
-
+import {CovidCaseTypes} from '../../common/CovidCaseTypes'
 
 const ReportCase = () => {
 
@@ -17,13 +17,13 @@ const ReportCase = () => {
   const [country, setCountry] = useState('')
   const [caseType, setCaseType] = useState('')
 
-  const covidCases = covidSummaryStore((state) => state.covidCases.Countries);
+  const covidCases = covidSummaryStore((state) => state.covidCases);
 
   const updateCovid = covidSummaryStore((state) => state.updateCovid);
 
   const getCountries = () => {
-    if (covidCases) {
-      return covidCases.map((country: any) => (
+    if (covidCases != undefined && covidCases.length != 0) {
+      return covidCases.Countries.map((country: any) => (
         { 'label': country.Country, 'value': country.CountryCode }
       ));
     }
@@ -63,9 +63,9 @@ const ReportCase = () => {
   };
 
   const caseTypes = [
-    { label: 'Death', value: 'death' },
-    { label: 'Recovery', value: 'recovery' },
-    { label: 'Active', value: 'active' }
+    { label: 'Death', value: CovidCaseTypes.death},
+    { label: 'Recovery', value: CovidCaseTypes.recovery},
+    { label: 'Active', value: CovidCaseTypes.active }
   ]
 
   const showAlert = (title:string,message:string) =>

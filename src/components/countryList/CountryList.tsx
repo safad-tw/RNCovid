@@ -13,7 +13,7 @@ import LanguagesStrings from './../../localization/LanguagesStrings';
 
 function CountryList(props: any) {
 
-  const data = props.route.params.data.Countries
+  const data = props?.route?.params?.data?.Countries
   const [query, setQuery] = useState('');
   const [filterData, setFilterData] = useState(data);
   const [filters] = useState([

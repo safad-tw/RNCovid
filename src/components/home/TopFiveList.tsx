@@ -23,7 +23,7 @@ const TopFiveList = (props: TopFiveListProps) => {
     const renderItem = (data: any) => {
         return (
             <Text style={styles.cardListName}>
-                {data.index + 1}. {data.item.Country}
+                {data.index + 1}. {data?.item?.Country}
             </Text>
         )
     }

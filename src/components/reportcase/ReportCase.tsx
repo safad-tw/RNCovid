@@ -22,7 +22,9 @@ const ReportCase = () => {
   const updateCovid = covidSummaryStore((state) => state.updateCovid);
 
   const getCountries = () => {
-    if (covidCases && covidCases.length > 0) {
+   
+
+    if (covidCases && covidCases.length != 0) {
       return covidCases.Countries.map((country: any) => (
         { 'label': country.Country, 'value': country.CountryCode }
       ));

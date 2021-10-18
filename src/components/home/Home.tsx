@@ -34,7 +34,7 @@ const Home = (props: any) => {
 
 
   useEffect(() => {
-    if (isLoading == false && data) {
+    if (!isLoading && data) {
       setCovidSummary(data)
     }
   }, [data])
